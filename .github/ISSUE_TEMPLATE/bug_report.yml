@@ -1,0 +1,21 @@
+name: Bug report
+description: Something is broken
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes: {label: What happened?, description: Include expected vs actual behavior.}
+    validations: {required: true}
+  - type: textarea
+    id: repro
+    attributes: {label: Steps to reproduce}
+    validations: {required: true}
+  - type: input
+    id: version
+    attributes: {label: Version / commit}
+  - type: textarea
+    id: env
+    attributes: {label: Environment, description: OS, arch, relevant config.}
+  - type: textarea
+    id: logs
+    attributes: {label: Logs, render: shell}
