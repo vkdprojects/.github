@@ -2,7 +2,10 @@
 
 1. Open an issue first for non-trivial changes.
 2. Fork, branch from `main`, keep PRs focused.
-3. Run `cargo fmt`, `cargo clippy -- -D warnings` and `cargo test` before pushing.
+3. Run the project's checks before pushing:
+   - Rust: `cargo fmt`, `cargo clippy -- -D warnings`, `cargo test`
+   - Go: `gofmt -l .`, `go vet ./...`, `go test ./...`
+   - Others: see the repo's README / CONTRIBUTING.
 4. Use clear commit messages (Conventional Commits preferred).
 5. PRs are squash-merged.
 

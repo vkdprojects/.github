@@ -5,5 +5,5 @@
 Closes #
 
 ## Checklist
-- [ ] `cargo fmt` / `cargo clippy -- -D warnings` / `cargo test` pass
+- [ ] Format, lint and tests pass (see CONTRIBUTING)
 - [ ] Docs updated if behavior changed
